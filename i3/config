@@ -139,7 +139,7 @@ bar {
 bindsym $mod+Escape exec xscreensaver-command --lock
 exec /usr/bin/xscreensaver -nosplash &
 
-exec setxkbmap us,fr -option "grp:lswitch" -option "shift:both_capslock"
+exec--no-startup-id setxkbmap us,fr -option "grp:switch" -option "shift:both_capslock"
 
 exec xrandr --output DP-1 --auto --left-of DP-2
 workspace 1 output DP-1
