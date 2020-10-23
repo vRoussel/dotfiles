@@ -9,6 +9,7 @@ Yet another dotfiles repo
  - vim/colors           => ~/.vim/colors
  - vim/autoload         => ~/.vim/autoload
  - git/.gitconfig       => ~/.gitconfig
+ - xmodmap/.Xmodmap     => ~/.Xmodmap
 
 ## Share Vim and Neovim conf
 $ ln -s ~/.vim ~/.local/share/nvim/site
